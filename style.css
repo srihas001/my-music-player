@@ -1,0 +1,589 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width: 25vw;
+    height: 100vh;
+}
+.right{
+    width: 75vw;
+    height: 100vh;
+}
+.line{
+    border: 2px solid rgb(0, 0, 0);
+}
+.srihas{
+    display: flex;
+}
+.srihas1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    gap: 2px;
+
+    
+}
+.srihas1 img{
+    width: 30px;
+    height: 30px;
+    filter: invert();
+    padding: 0 10px;
+
+}
+.srihas2{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 15px;
+    gap: 14px;
+
+}
+.srihas3{
+    display: flex;
+    color: #a7a1a1;
+    align-items: center;
+    padding: 15px;
+    gap: 14px;
+}
+.srihas0{
+    background-color: rgb(23, 22, 22);
+    width: 24vw;
+    height: 24vh;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+.srihas5{
+    width: 24vw;
+    height: 107vh;
+    background-color: rgb(23, 22, 22);
+    padding: 4px;
+
+}
+.invert{
+    filter: invert(0.3);
+}
+.srihas6 img{
+    width: 25px;
+
+}
+.srihas6{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 15px;
+}
+.srihas8 img{
+    width: 18px;
+    height: 18px;
+    padding: 15px;
+}
+.invert1{
+    filter: invert(0.7);
+}
+.srihas7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.srihas9{
+    width: 21vw;
+    height: 13vh;
+    background-color: #3a3a3a;
+    padding:20px ;
+    border-radius: 6px;
+}
+.srihas10{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+.srihas11{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+.srihas12{
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 18px;
+}
+.srihas13{
+    padding: 8px;
+}
+.srihas14{
+    color: rgb(98, 98, 98);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+
+}
+.srihas15{
+    list-style-type: none;
+    display: flex;
+    gap: 13px;
+    padding-top:80px ;
+    margin: auto;
+    padding-left: 20px;
+}
+.srihas16{
+    color: rgb(98, 98, 98);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.srihas17{
+    width: 21vw;
+    height: 12vh;
+    background-color: #3a3a3a;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius:10px ;
+}
+.srihas18{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+.srihas19{
+    color: white;
+    font-weight:400;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.srihas20 button{
+   padding: 8px;
+   font-weight: 600;
+   border-radius: 18px;
+}
+.srihas20{
+    padding: 5px;
+}
+.srihas21 img{
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+.srihas21{
+   padding: 15px; 
+}
+.srihas22{
+    background: transparent;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 7px;
+}
+.srihas23{
+    width: 74vw;
+    height: 100%;
+    background-color: rgb(23, 22, 22);
+}
+.srihas24{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.chinnu1{
+    border-radius: 18px;
+    padding: 4px;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.chinnu1:hover{
+    padding: 8px;
+    font-style: bold;
+    font-weight: 600;
+    cursor: pointer;
+}
+.srihas26{
+    padding: 24px;
+
+}
+.srihas25{
+    color: white;
+    padding: 24px;
+    cursor: pointer;
+}
+.srihas27{
+    display: flex;
+    gap: 10px;
+}
+.srihas30{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.srihas29 button{
+    background-color: rgb(31, 31, 31) ;
+    color: white;
+    border-radius: 10px;
+    padding:6px;
+}
+.srihas28 button{
+    background-color: rgb(31, 31, 31) ;
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+    
+}
+.srihas27{
+    padding: 4px;
+    padding-left: 10px;
+}
+.srihas31{
+    width: 74vw;
+    height: auto;
+    background-color: #1c1c1c;
+}
+.srihas32{
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+}
+.srihas34 img{
+    width: 160px;
+    height: 180px;
+    padding: 4px;
+    padding-left: 28px;
+    position: relative;
+    
+
+}
+.srihas34{
+    position: relative;
+}
+
+
+
+.sri2{
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+    background-color: rgb(0, 191, 197);
+    border-radius: 30px;
+    right: 10px;
+    opacity: 0;
+
+}
+.sri2 img{
+    width:60% ;
+    height: auto;
+    padding-left: 12px;
+    cursor: pointer;
+    
+}
+.sri2:hover{
+    opacity: 1;
+    transform: translateY(-8px);
+    transition:0.2s;
+
+
+}
+
+
+.srihas35{
+    color: white;
+    padding-left: 28px;
+    font-size: 12px;
+    line-height: 0.5;
+    padding-bottom: 3px;
+}
+.srihas36{
+    color: rgb(133, 133, 133);
+    padding-left: 28px;
+    line-height: 0.5;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.sri5{
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.sri5 ul{
+    list-style-type: none;
+    padding: 5px;
+    overflow: auto;
+    height: 53vh;
+    
+    
+}
+
+
+.sri5 ul li{
+    padding:10px 4px;
+    border: 2px solid rgb(97, 96, 96);
+    margin: 10px;
+    border-radius: 8px;
+
+
+
+}
+.srihas33{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    
+}
+.srihas37{
+    display: flex;
+    gap: 8px; 
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.chinnu3{
+    color: white;
+    display: flex;
+    gap: 38px;
+    padding: 40px;
+}
+.srihas40{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.srihas42{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.srihas44{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.srihas47 button{
+    background-color: rgb(57, 57, 57);
+    border-radius: 20px;
+    display: flex;
+    padding: 6px;
+}
+.srihas47 img{
+    width: 15px;
+    height: 15px;
+    filter: invert(1);
+}
+.srihas46{
+    display: flex;
+    gap: 8px;
+    padding: 30px;
+}
+
+.chinnu4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.sri49{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+
+}
+.sri6{
+    width:98% ;
+    height: 5px;
+    background-color: rgb(165, 165, 165);
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.srihas23{
+    position: relative;
+}
+.srihas50 img{
+    width: 25px;
+    height: 25px;
+}
+.srihas51 img{
+    width: 25px;
+    height: 25px;
+}
+.srihas52 img{
+    width: 25px;
+    height: 25px;
+}
+.srihas49{
+    color: rgb(78, 78, 78);
+    background-color: #494949;
+    width: 73%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 30px;
+
+
+}
+.srihas56{
+    width: 15px;
+    border: 2px solid black;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    bottom: -3px;
+    left: 1%;
+    transition: 0.2s;
+
+
+}
+.sri10 img{
+    width: 20px;
+    height: 20px;
+    filter: invert();
+    padding: 10px ;
+}
+.sri10{
+    color: white;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+}
+.sri11{
+    font-size: 14px;
+}
+.srihas80{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+#sri20,#sri21,#sri22,.srihas83 img{
+    filter: invert(1);
+}
+
+.srihas81{
+    color:white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.srihas82{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.srihas83 img{
+    width: 26px;
+    height: 26px;
+    padding-left: 20px;
+   
+
+}
+.srihas83{
+    display: flex;
+    align-items: center;
+}
+.srihas84{
+    display: flex;
+    gap: 20px;
+}
+.humburger img{
+    width: 20px;
+    height: 20px;
+    filter: invert();
+    display: none;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    
+
+}
+.close img{
+    width: 15px;
+    height: 15px;
+    right: 0;
+    filter: invert();
+    cursor: pointer;
+    display: none;
+
+}
+.srihas33:hover{
+    border: 2px solid rgb(50,50,50,-0.6);
+    background-color: rgb(50, 50, 50,0.4);
+}
+
+@media (max-width:1500px){
+    .left{
+        position: absolute;
+        left: -100%;
+        transition: 0.2s;
+        z-index: 1;
+        width: 320px;
+        background-color: black;
+
+    }
+    .right{
+        width: 100vw;
+    }
+    .srihas23{
+        width: 100vw;
+    }
+    .srihas49{
+        width: 100vw;
+    }
+    .srihas0{
+        width: 320px;
+    }
+    .srihas5{
+        width: 320px;
+    }
+    .srihas31{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .humburger img{
+        display:block;
+        cursor: pointer;
+
+    }
+    .close img{
+        display: block;
+    }
+}
