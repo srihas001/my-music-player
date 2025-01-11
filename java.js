@@ -44,7 +44,7 @@ async function getsongs() {
       
     async function main(){
         const playback=(track) => {
-            currentsong.src =`./songs/${track}`;
+            currentsong.src =`songs/${track}`;
             console.log(currentsong)
             currentsong.play()
             sri21.src="images/pause.png"
