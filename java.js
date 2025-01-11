@@ -1,20 +1,30 @@
 async function getsongs() {
-    let a= await fetch("http://127.0.0.1:3002/songs/")
-    console.log(a);
-    let response= await a.text()
-    console.log(response)
-    let div=document.createElement("div")
-    div.innerHTML=response
-     let tds=div.getElementsByTagName("a")
-     let songs=[]
-     for (let index = 0; index < tds.length; index++) {
-        const element = tds[index];
-        if(element.href.endsWith(".mp3")){
+    // let a= await fetch("http://127.0.0.1:3002/songs/")
+    // console.log(a);
+    // let response= await a.text()
+    // console.log(response)
+    // let div=document.createElement("div")
+    // div.innerHTML=response
+    //  let tds=div.getElementsByTagName("a")
+     let songs=[
+        "Baitikochi-Chuste.mp3",
+  "Blue-Yung-Kai.mp3",
+  "Chitti.mp3",
+  "Hoyna-Hoyna.mp3",
+  "Kola-Kalle-Ila.mp3",
+  "My-Heart-Will-Go-On.mp3",
+  "Perfect-(Mr-Jat.in).mp3",
+  "Praanam.mp3",
+  "Rao-Gari-Abbayi.mp3"
+     ]
+    //  for (let index = 0; index < tds.length; index++) {
+    //     const element = tds[index];
+    //     if(element.href.endsWith(".mp3")){
               
-            songs.push(element.href.split("/songs/")[1]) 
+    //         songs.push(element.href.split("/songs/")[1]) 
             
-            }
-        }
+    //         }
+    //     }
         
 
         return songs
