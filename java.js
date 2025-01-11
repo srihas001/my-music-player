@@ -1,4 +1,6 @@
 async function getsongs() {
+    //step1:
+    //we can also create an public API and push our songs into it and follow the below procedure
     // let a= await fetch("http://127.0.0.1:3002/songs/")
     // console.log(a);
     // let response= await a.text()
@@ -6,6 +8,17 @@ async function getsongs() {
     // let div=document.createElement("div")
     // div.innerHTML=response
     //  let tds=div.getElementsByTagName("a")
+    
+     
+    //  for (let index = 0; index < tds.length; index++) {
+    //     const element = tds[index];
+    //     if(element.href.endsWith(".mp3")){
+              
+    //         songs.push(element.href.split("/songs/")[1]) 
+            
+    //         }
+    //     }
+    //step2:
      let songs=[
         "Baitikochi-Chuste.mp3",
   "Blue-Yung-Kai.mp3",
@@ -15,16 +28,7 @@ async function getsongs() {
   "My-Heart-Will-Go-On.mp3",
   "Perfect-(Mr-Jat.in).mp3",
   "Praanam.mp3",
-  "Rao-Gari-Abbayi.mp3"
-     ]
-    //  for (let index = 0; index < tds.length; index++) {
-    //     const element = tds[index];
-    //     if(element.href.endsWith(".mp3")){
-              
-    //         songs.push(element.href.split("/songs/")[1]) 
-            
-    //         }
-    //     }
+  "Rao-Gari-Abbayi.mp3"]
         
 
         return songs
