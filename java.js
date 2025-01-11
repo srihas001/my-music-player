@@ -20,6 +20,7 @@ async function getsongs() {
     //     }
     //step2:
      let songs=[
+          "A-Thousand-Years.mp3",
         "Baitikochi-Chuste.mp3",
   "Blue-Yung-Kai.mp3",
   "Chitti.mp3",
