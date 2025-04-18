@@ -404,7 +404,7 @@ body{
 .sri49{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
     border-radius: 20px;
 
@@ -473,9 +473,10 @@ body{
     display: flex;
     padding: 0 10px;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
     font-size: 15px;
 }
+
 .sri11{
     font-size: 14px;
 }
@@ -489,6 +490,7 @@ body{
 #sri20,#sri21,#sri22,.srihas83 img{
     filter: invert(1);
 }
+
 
 .srihas81{
     color:white;
@@ -586,4 +588,41 @@ body{
     .close img{
         display: block;
     }
+}
+@media (max-width:800px){
+    .srihas80{
+        font-size: 12px;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .srihas81{
+        font-size:15px
+    }
+    .srihas49 {
+        width: 90%;          /* Take 90% of the parent width */
+        max-width: 2100px;    /* Optional: don't go too wide */
+        min-width: 250px;    /* Optional: don't go too narrow */
+        margin: 0 auto;  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        box-sizing: border-box;    /* Center it horizontally */
+    }
+    .range{
+        max-width: 100px;  /* Adjust as needed */
+        min-width: 60px;
+        width: 100%;
+
+    }
+    .srihas83{
+        max-width: 100px;  /* Adjust as needed */
+        min-width: 60px;
+        width: 100%;
+        flex: 1;
+        
+    }
+
+    
 }
