@@ -600,24 +600,24 @@ body{
         font-size:15px
     }
     .srihas49 {
-        width: 90%;          /* Take 90% of the parent width */
-        max-width: 2100px;    /* Optional: don't go too wide */
-        min-width: 250px;    /* Optional: don't go too narrow */
+        width: 90%;         
+        max-width: 2100px;    
+        min-width: 250px;   
         margin: 0 auto;  
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        box-sizing: border-box;    /* Center it horizontally */
+        box-sizing: border-box;    
     }
     .range{
-        max-width: 100px;  /* Adjust as needed */
+        max-width: 100px;  
         min-width: 60px;
         width: 100%;
 
     }
     .srihas83{
-        max-width: 100px;  /* Adjust as needed */
+        max-width: 100px; 
         min-width: 60px;
         width: 100%;
         flex: 1;
