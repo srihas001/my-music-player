@@ -614,8 +614,9 @@ body{
         max-width: 100px;  
         min-width: 60px;
         width: 100%;
-        direction:rtl;
-        writing-mode: vertical-lr;
+        writing-mode: bt-lr; 
+        -webkit-appearance: slider-vertical;
+        appearance: slider-vertical; 
 
     }
     .srihas83{
